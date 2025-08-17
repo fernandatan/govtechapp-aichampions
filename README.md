@@ -19,8 +19,8 @@ A web-based **RAG-powered chatbot** that allows users to interact with publicly 
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/<your-username>/govtech-dev-assistant.git
-cd govtech-dev-assistant
+git clone https://github.com/fernandatan/govtechapp-aichampions.git
+cd govtechapp-aichampions
 ```
 
 2. **Create a virtual environment and activate it:**
