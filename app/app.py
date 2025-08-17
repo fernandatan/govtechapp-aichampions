@@ -34,8 +34,8 @@ if "submitted" not in st.session_state:
 
 if "vectorstore" not in st.session_state:
     st.session_state.vectorstore = Chroma(
-        persist_directory=None,  
-        embedding_function=embeddings
+        persist_directory=None,
+        embedding_function=OpenAIEmbeddings()
     )
 
 if "retriever" not in st.session_state:
