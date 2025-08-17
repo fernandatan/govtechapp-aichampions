@@ -35,4 +35,5 @@ ENV APP_USERNAME=admin
 ENV APP_PASSWORD=password123
 
 # Command to run your backend script
-CMD ["python3", "run_backend.py --server.port=$PORT --server.address=0.0.0.0 --server.headless=true"]
+CMD ["python3", "run_backend.py"]
+
