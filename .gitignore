@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+*.env
+
+# Streamlit / cache
+.streamlit/
+.cache/
+
+# LangChain / Chroma persistence
+govtech_chroma/
+
+# OS files
+.DS_Store
+Thumbs.db
