@@ -11,7 +11,7 @@ subprocess.run(["python", "ingest/scrape_product_urls.py"], check=True)
 print("\n📚 Step 2: Ingesting product pages into vector DB...")
 subprocess.run(["python", "ingest/ingest_docs.py"], check=True)
 
-# (Optional) Step 3: Launch Streamlit app
+# Step 3: Launch Streamlit app
 launch_ui = input("\n💬 Launch Streamlit chatbot now? (y/n): ").strip().lower()
 if launch_ui == "y":
     print("\n🖥️  Launching Streamlit UI...")

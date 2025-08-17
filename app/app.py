@@ -129,27 +129,6 @@ def show_chatbot():
         memory=memory
     )
 
-    # Chat UI
-    # user_input = st.text_input("Ask a question:", key="input_text")
-
-    # # --- Sample prompts ---
-    # st.markdown("💡 **Try one of these sample prompts:**")
-    # cols = st.columns(2)
-    # with cols[0]:
-    #     if st.button("What is Government on Commercial Cloud?"):
-    #         st.session_state.input_text = "What is Government on Commercial Cloud?"
-    #         st.rerun()
-    # with cols[1]:
-    #     if st.button("Explain how teams can use Cloak"):
-    #         st.session_state.input_text = "Explain how teams can use Cloak"
-    #         st.rerun()
-
-    # Run chatbot
-    # if user_input:
-    #     with st.spinner("Generating response..."):
-    #         response = qa_chain.run(user_input)
-    #         st.session_state.chat_history.append((user_input, response))
-
     # --- Run chatbot ---
     if user_input and st.session_state.get("last_input") != user_input:
         with st.spinner("Generating response..."):
